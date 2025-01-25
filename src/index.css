@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about .swiper-pagination-bullet {
+    width: 11px !important;
+    height: 11px !important;
+    opacity: 1; /* Full opacity */
+    background-color: #e4e5e9 !important;
+  }
+ 
+ .about .swiper-pagination-bullet-active {
+    background-color: #007798 !important; /* Active bullet color */
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-logo{
+font-family: 'Jockey One';
+}
+/* h1,h2,h3,h4 {
+    font-family: 'Signika';
+} */
+p,a,li,h5, button {
+    font-family : 'Jost';
+    font-weight:400
+}
+.basic-single {
+scrollbar-width: thin;
+scroll-behavior: smooth;
+}
+.thin {
+scrollbar-width: thin;
+
+}
