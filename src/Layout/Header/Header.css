@@ -1,0 +1,26 @@
+/* Headers.css */
+.header svg {
+ height:18px
+}
+/* Initially, the menu is hidden with max-height set to 0 */
+.mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+  }
+  
+  /* When the menu is open, we set max-height to a value large enough to accommodate the menu items */
+  .mobile-menu.open {
+    max-height: 300px; /* Adjust this height according to the content */
+  }
+  h3 {
+    color: linear-gradient(180deg, #00D173 0%, #05EEFF 78.5%);
+  }
+  /* Additional styling to make the mobile menu look good */
+  .mobile-menu {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    position: relative;
+  }
+  

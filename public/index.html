@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/download.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="The Cricket Mohali" />
+  
+    <!-- Preload fonts and images -->
+    <link rel="preload" href="/fonts/my-font.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href="https://tcmcricket.com/admin/wp-content/uploads/2024/09/BANNER-1.webp" />
+
+
+    <link rel="preload" as="image" type="image/jpeg" href="https://tcmcricket.com/admin/wp-content/uploads/2024/09/Frame-57.webp" importance="high">
+    <link rel="preload" as="image" type="image/jpeg" href="https://tcmcricket.com/admin/wp-content/uploads/2024/09/Frame-58.webp" importance="high">
+    <link rel="preconnect" href="https://thecricketmohali.avaptech.in"/>
+ 
+  
+    <!-- Load non-critical CSS asynchronously -->
+    <link rel="stylesheet" href="non-critical.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="non-critical.css"></noscript>
+  
+    <!-- Preload and load fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" />
+  
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" />
+
+    <!-- Add critical CSS inline here (above-the-fold content styles) -->
+    <style>
+      /* Add some critical styles to minimize layout shifts during loading */
+      body {
+        font-family: 'Signika', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+      }
+      h1, h2, h3, h4 {
+        font-family: 'Signika', sans-serif; /* Specify sans-serif as fallback */
+      }
+    </style>
+  
+    <!-- Meta and Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>The Cricket Mohali</title>
+  </head>
+  
+  <body>
+       
+    <!-- App Root -->
+    <div id="root"></div>
+
+    <!-- Scripts -->
+   <script defer src="https://tcm-opal.vercel.app/static/js/941.044625a9.chunk.js"></script>
+    <!-- Lazy load non-critical images -->
+    
+  </body>
+</html>
